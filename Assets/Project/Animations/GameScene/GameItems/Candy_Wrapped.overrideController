@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Candy_Wrapped
+  m_Controller: {fileID: 9100000, guid: d96308baf80bb4bb6bdf93711f50de99, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d0a771757f4f64b10aa6641018a4dfbf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d0a771757f4f64b10aa6641018a4dfbf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 22a00d507ef8d4048bd868eaa7c1c6ec, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 22a00d507ef8d4048bd868eaa7c1c6ec, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 11acb055e85e04c3daf34dc1cccbe728, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 11acb055e85e04c3daf34dc1cccbe728, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1516a93a3b3014b828277aedcc0a76c6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1516a93a3b3014b828277aedcc0a76c6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f3320b7fe892147c180d837abd21802c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f3320b7fe892147c180d837abd21802c, type: 2}

@@ -1,0 +1,54 @@
+﻿using System.Collections.Generic;
+
+using UnityEngine;
+
+using GEM.Core;
+
+namespace GEM.Game.Common
+{
+    /// <summary>
+    /// The class used for the color bomb + striped candy combo.
+    /// </summary>
+    public class ColorBombWithStripedCandyCombo : ColorBombCombo
+    {
+        /// <summary>
+        /// Resolves this combo.
+        /// </summary>
+        /// <param name="board">The game board.</param>
+        /// <param name="tiles">The tiles destroyed by the combo.</param>
+        /// <param name="fxPool">The pool to use for the visual effects.</param>
+        public override void Resolve(GameBoard board, List<GameObject> tiles, FxPool fxPool)
+        {
+            base.Resolve(board, tiles, fxPool);
+
+            var striped = tileA.GetComponent<StripedCandy>() != null ? tileA : tileB;
+
+            var newTiles = new List<GameObject>();
+            foreach (var tile in tiles)
+            {
+                if (tile != null && tile.GetComponent<Candy>() != null &&
+                    tile.GetComponent<Candy>().color == striped.GetComponent<Candy>().color)
+                {
+                    var x = tile.GetComponent<Tile>().x;
+                    var y = tile.GetComponent<Tile>().y;
+                    board.ExplodeTileNonRecursive(tile);
+                    GameObject newTile;
+                    if (Random.Range(0, 2) % 2 == 0)
+                    {
+                        newTile = board.CreateHorizontalStripedTile(x, y, striped.GetComponent<Candy>().color);
+                    }
+                    else
+                    {
+                        newTile = board.CreateVerticalStripedTile(x, y, striped.GetComponent<Candy>().color);
+                    }
+
+                    newTiles.Add(newTile);
+                }
+            }
+
+            SoundManager.instance.PlaySound("ColorBomb");
+
+            board.ExplodeGeneratedTiles(newTiles);
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "maxLives": 5,
+    "timeToNextLife": 300,
+    "livesRefillCost": 100,
+    "initialCoins": 1500,
+    "numExtraMoves": 5,
+    "extraMovesCost": 100,
+    "numExtraTime": 15,
+    "extraTimeCost": 100,
+    "defaultTileScore": 10,
+    "scoreOverrides": [],
+    "ingameBoosterAmount": {
+        "Lollipop": 3,
+        "Bomb": 3,
+        "Switch": 3,
+        "ColorBomb": 3
+    },
+    "ingameBoosterCost": {
+        "Lollipop": 100,
+        "Bomb": 100,
+        "Switch": 100,
+        "ColorBomb": 100
+    },
+    "rewardedAdCoins": 150,
+    "iapItems": [
+        {
+            "storeId": "com.gem.photomatch.goldpack1",
+            "numCoins": 1200,
+            "discount": 0,
+            "mostPopular": false,
+            "bestValue": false,
+            "coinIcon": "Small"
+        }
+    ]
+}

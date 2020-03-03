@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1033886801799",
+    "firebase_url": "https://photomatch-46537.firebaseio.com",
+    "project_id": "photomatch-46537",
+    "storage_bucket": "photomatch-46537.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033886801799:android:a7617e82f0c89be7853d22",
+        "android_client_info": {
+          "package_name": "com.GeM.PhotoMatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033886801799-l1pcrupko2srnp64eaommvhadg6508ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsQ6-bEci4D9xtCoZ_TnDwbySWzJ8YpwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033886801799-l1pcrupko2srnp64eaommvhadg6508ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
