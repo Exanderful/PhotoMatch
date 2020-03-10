@@ -1,7 +1,7 @@
 {
-    "id": 3,
-    "width": 7,
-    "height": 7,
+    "id": 7,
+    "width": 8,
+    "height": 8,
     "tiles": [
         {
             "type": "RandomCandy",
@@ -23,9 +23,8 @@
             "$type": "GEM.Game.Common.HoleTile"
         },
         {
-            "type": "RandomCandy",
             "elementType": "None",
-            "$type": "GEM.Game.Common.CandyTile"
+            "$type": "GEM.Game.Common.HoleTile"
         },
         {
             "type": "RandomCandy",
@@ -94,7 +93,46 @@
         },
         {
             "type": "RandomCandy",
+            "elementType": "Syrup1",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "type": "RandomCandy",
+            "elementType": "Syrup1",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "type": "RandomCandy",
+            "elementType": "Syrup1",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "type": "RandomCandy",
+            "elementType": "Syrup1",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "type": "RandomCandy",
             "elementType": "None",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "type": "RandomCandy",
+            "elementType": "None",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "elementType": "None",
+            "$type": "GEM.Game.Common.HoleTile"
+        },
+        {
+            "type": "RandomCandy",
+            "elementType": "None",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "type": "RandomCandy",
+            "elementType": "Syrup1",
             "$type": "GEM.Game.Common.CandyTile"
         },
         {
@@ -109,7 +147,30 @@
         },
         {
             "type": "RandomCandy",
+            "elementType": "Syrup1",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "type": "RandomCandy",
             "elementType": "None",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "elementType": "None",
+            "$type": "GEM.Game.Common.HoleTile"
+        },
+        {
+            "elementType": "None",
+            "$type": "GEM.Game.Common.HoleTile"
+        },
+        {
+            "type": "RandomCandy",
+            "elementType": "None",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "type": "RandomCandy",
+            "elementType": "Syrup1",
             "$type": "GEM.Game.Common.CandyTile"
         },
         {
@@ -124,8 +185,17 @@
         },
         {
             "type": "RandomCandy",
+            "elementType": "Syrup1",
+            "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "type": "RandomCandy",
             "elementType": "None",
             "$type": "GEM.Game.Common.CandyTile"
+        },
+        {
+            "elementType": "None",
+            "$type": "GEM.Game.Common.HoleTile"
         },
         {
             "type": "RandomCandy",
@@ -139,22 +209,22 @@
         },
         {
             "type": "RandomCandy",
-            "elementType": "None",
+            "elementType": "Syrup1",
             "$type": "GEM.Game.Common.CandyTile"
         },
         {
             "type": "RandomCandy",
-            "elementType": "None",
+            "elementType": "Syrup1",
             "$type": "GEM.Game.Common.CandyTile"
         },
         {
             "type": "RandomCandy",
-            "elementType": "None",
+            "elementType": "Syrup1",
             "$type": "GEM.Game.Common.CandyTile"
         },
         {
             "type": "RandomCandy",
-            "elementType": "None",
+            "elementType": "Syrup1",
             "$type": "GEM.Game.Common.CandyTile"
         },
         {
@@ -227,13 +297,13 @@
             "$type": "GEM.Game.Common.HoleTile"
         },
         {
+            "elementType": "None",
+            "$type": "GEM.Game.Common.HoleTile"
+        },
+        {
             "type": "RandomCandy",
             "elementType": "None",
             "$type": "GEM.Game.Common.CandyTile"
-        },
-        {
-            "elementType": "None",
-            "$type": "GEM.Game.Common.HoleTile"
         },
         {
             "type": "RandomCandy",
@@ -247,11 +317,12 @@
         }
     ],
     "limitType": "Moves",
-    "limit": 15,
+    "limit": 25,
     "goals": [
         {
-            "score": 450,
-            "$type": "GEM.Game.Common.ReachScoreGoal"
+            "elementType": "Syrup1",
+            "amount": 12,
+            "$type": "GEM.Game.Common.CollectElementGoal"
         }
     ],
     "availableColors": [
@@ -262,15 +333,15 @@
         "Red",
         "Yellow"
     ],
-    "score1": 150,
-    "score2": 300,
-    "score3": 450,
+    "score1": 300,
+    "score2": 600,
+    "score3": 900,
     "awardSpecialCandies": true,
     "awardedSpecialCandyType": "Striped",
     "collectableChance": 0,
     "availableBoosters": {
-        "Lollipop": false,
-        "Bomb": false,
+        "Lollipop": true,
+        "Bomb": true,
         "Switch": false,
         "ColorBomb": false
     }

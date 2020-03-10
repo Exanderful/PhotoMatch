@@ -10,6 +10,7 @@ public class SampleWebView : MonoBehaviour
     WebViewObject webViewObject;
 
     public GameObject BG;
+    public GameObject LoginButton;
 
     public string DebugKey;
 
@@ -67,12 +68,14 @@ public class SampleWebView : MonoBehaviour
             loginText.text = "@" + PlayerStats.instance.playerSettings.name;
             foreach(GameObject ob in DeleteLoginButton)
             ob.SetActive(true);
+            LeanTween.scale(LoginButton, new Vector3(1f, 1f, 1f), 0.4f).setEaseInOutSine();
         }
         else
         {
-            loginText.text = "sign in";
+            //loginText.text = "sign in";
             foreach (GameObject ob in DeleteLoginButton)
             ob.SetActive(false);
+            LeanTween.scale(LoginButton, new Vector3(0f, 0f, 0f), 0.4f).setEaseInSine();
         }
     }
 

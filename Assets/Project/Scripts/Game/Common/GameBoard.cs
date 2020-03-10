@@ -321,7 +321,7 @@ namespace GEM.Game.Common
                     {
                         var honey = tilePool.honeyPool.GetObject();
                         honey.transform.position = tilePositions[i + (j * level.width)];
-                        honey.GetComponent<SpriteRenderer>().sortingOrder = -1;
+                        honey.GetComponent<SpriteRenderer>().sortingOrder = 1;
                         honeys.Add(honey);
                         ices.Add(null);
                         syrups1.Add(null);
@@ -341,7 +341,7 @@ namespace GEM.Game.Common
                     {
                         var syrup = tilePool.syrup1Pool.GetObject();
                         syrup.transform.position = tilePositions[i + (j * level.width)];
-                        syrup.GetComponent<SpriteRenderer>().sortingOrder = -1;
+                        syrup.GetComponent<SpriteRenderer>().sortingOrder = 1;
                         ices.Add(null);
                         honeys.Add(null);
                         syrups1.Add(syrup);
@@ -351,7 +351,7 @@ namespace GEM.Game.Common
                     {
                         var syrup = tilePool.syrup2Pool.GetObject();
                         syrup.transform.position = tilePositions[i + (j * level.width)];
-                        syrup.GetComponent<SpriteRenderer>().sortingOrder = -1;
+                        syrup.GetComponent<SpriteRenderer>().sortingOrder = 1;
                         ices.Add(null);
                         honeys.Add(null);
                         syrups1.Add(null);
@@ -1261,7 +1261,7 @@ namespace GEM.Game.Common
             {
                 var syrup = tilePool.syrup1Pool.GetObject();
                 syrup.transform.position = syrups2[idx].transform.position;
-                syrup.GetComponent<SpriteRenderer>().sortingOrder = -1;
+                //syrup.GetComponent<SpriteRenderer>().sortingOrder = -1;
 
                 syrups2[idx].GetComponent<PooledObject>().pool.ReturnObject(syrups2[idx]);
                 level.tiles[idx].elementType = ElementType.Syrup1;

@@ -210,7 +210,7 @@ RectTransform:
   m_GameObject: {fileID: 28085440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2053339731}
   - {fileID: 932804501}
@@ -3525,6 +3525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Url: https://google.com
   BG: {fileID: 1678047529}
+  LoginButton: {fileID: 28085440}
   DebugKey: 5739047997.9f7d92e.63ea9727c9cd46439dba63b9b8f0caf7
   loginText: {fileID: 2053339732}
   DeleteLoginButton:
@@ -3952,7 +3953,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: sign in
+  m_Text: 
 --- !u!222 &2053339733
 CanvasRenderer:
   m_ObjectHideFlags: 0
