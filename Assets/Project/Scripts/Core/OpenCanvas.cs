@@ -32,5 +32,9 @@ public class OpenCanvas : MonoBehaviour
         {
             Instantiate(UserSearching);
         }
+        if (gameObject.name == "StorageButton")
+        {
+            
+        }
     }
 }

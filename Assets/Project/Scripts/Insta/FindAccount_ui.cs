@@ -14,7 +14,10 @@ public class FindAccount_ui : ui_basement
     public void TryFind(bool acc)
     {
         if (InputField.text.Length < 3)
+        {
+            Error_tex.text = "Too short";
             return;
+        }
         
         DownloadManager.ErrorHandler += Failed;
         DownloadManager.SuccessfullHandler += success;
