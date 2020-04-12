@@ -264,7 +264,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8aa9d24aaedad4c93b859a0f365f3d47, type: 3}
+    m_Font: {fileID: 12800000, guid: 0e3481c32085d4fdba69176aff4f1506, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -336,12 +336,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7cd1236a8b9fb5d4fa7401d7ac276745, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f61cb0ef3bd74174ba25662ceb6a5c0b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8a7aed8f7dfb84511a77806768d07e35, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bf67ca2bf27a69d49b206b2aab458eb1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -640,7 +640,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8aa9d24aaedad4c93b859a0f365f3d47, type: 3}
+    m_Font: {fileID: 12800000, guid: 0e3481c32085d4fdba69176aff4f1506, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -652,7 +652,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Searching
+  m_Text: SEARCHING
 --- !u!114 &6735200074023913228
 MonoBehaviour:
   m_ObjectHideFlags: 0
