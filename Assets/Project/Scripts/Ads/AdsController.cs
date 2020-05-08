@@ -15,6 +15,9 @@ using GoogleMobileAds.Api;
 
 public class AdsController : MonoBehaviour
 {
+    //Photo Match
+    //226329305202296
+    //cf25e8b2e87ccb6b354ebf268b00adf0
     public string InterstitialId = "";
     public string VideoId = "";
 
@@ -64,18 +67,12 @@ public class AdsController : MonoBehaviour
 
         if (!_disabledAd)
             LoadInterstital();
-
-
-
-
     }
 
     private void PurchaseManager_OnPurchaseNonConsumable(UnityEngine.Purchasing.PurchaseEventArgs args)
     {
         DisabledAd = true;
     }
-
-
 
     private void _interstital_OnAdOpening(object sender, System.EventArgs e)
     {
@@ -173,6 +170,7 @@ public class AdsController : MonoBehaviour
                     //Music.instance.TurnOff();
                     SoundManager.instance.ToggleMusic();
                     _interstital.Show();
+                    Debug.Log("Interstitial show");
 
                 }
                 else

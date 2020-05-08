@@ -56,6 +56,7 @@ namespace GEM.Game.Popups
 
             parentScene.CloseCurrentPopup();
             parentScene.OpenPopup<ExitGamePopup>("Popups/ExitGamePopup");
+            FacebookAnalytics.LogButtonClickEvent("GameSceneExitButton");
         }
 
         /// <summary>
@@ -64,6 +65,7 @@ namespace GEM.Game.Popups
         public void OnSoundButtonPressed()
         {
             SoundManager.instance.ToggleSound();
+            FacebookAnalytics.LogButtonClickEvent("GameSceneSoundButton");
         }
 
         /// <summary>
@@ -72,6 +74,7 @@ namespace GEM.Game.Popups
         public void OnMusicButtonPressed()
         {
             SoundManager.instance.ToggleMusic();
+            FacebookAnalytics.LogButtonClickEvent("GameSceneMusicButton");
         }
 
         /// <summary>

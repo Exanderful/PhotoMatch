@@ -18,7 +18,7 @@ public class Loadingbar_ui : ui_basement
         base.Activate();
         DownloadManager.ProgressHandler += SetValues;
         StartCoroutine(SmoothLoad());
-        //StartCoroutine(ShowTips());
+        StartCoroutine(ShowTips());
     }
 
     public void SetValues(int value, int totalValue)
@@ -27,7 +27,7 @@ public class Loadingbar_ui : ui_basement
         _totalValue = totalValue;
     }
 
-    /*public IEnumerator ShowTips()
+    public IEnumerator ShowTips()
     {
         while(true)
         {
@@ -46,11 +46,11 @@ public class Loadingbar_ui : ui_basement
 
         while (_time < _smoothTime)
         {
-            TipSize.sizeDelta = new Vector2(TipSize.sizeDelta.x, Mathf.Lerp(TipSize.sizeDelta.y, hided? 440: 150, _time / _smoothTime));
+            TipSize.sizeDelta = new Vector2(TipSize.sizeDelta.x, Mathf.Lerp(TipSize.sizeDelta.y, hided? 1000: 150, _time / _smoothTime));
             _time += Time.deltaTime;
             yield return null;
         }
-    }*/
+    }
 
     IEnumerator SmoothLoad()
     {

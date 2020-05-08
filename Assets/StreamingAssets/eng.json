@@ -142,7 +142,7 @@
         },
         {
             "key": "_ui_rules",
-            "value": "tutorial"
+            "value": "RULES"
         },
         {
             "key": "_ui_daily",
@@ -194,15 +194,15 @@
         },
         {
             "key": "_ui_findaccount",
-            "value": "find account"
+            "value": "FIND ACCOUNT"
         },
         {
             "key": "_ui_findaccount_findit",
-            "value": "find it!"
+            "value": "FIND IT!"
         },
         {
             "key": "_ui_findhashtag",
-            "value": "find hashtag"
+            "value": "FIND HASHTAG"
         },
         {
             "key": "_ui_searching",
@@ -383,6 +383,230 @@
         {
             "key": "_doublecoins",
             "value": "Gain doubled!"
+        },
+        {
+        	"key": "_ads",
+            "value": "ADS"
+        },
+        {
+        	"key": "_sound",
+            "value": "SOUND"
+        },
+        {
+        	"key": "_music",
+            "value": "MUSIC"
+        },
+        {
+        	"key": "_search_hashtag",
+            "value": "HASHTAG SEARCH"
+        },
+        {
+        	"key": "_search_account",
+            "value": "ACCOUNT SEARCH"
+        },
+        {
+        	"key": "_my_account",
+            "value": "MY ACCOUNT"
+        },
+        {
+        	"key": "_loading",
+            "value": "LOADING"
+        },
+        {
+        	"key": "_lollipop",
+            "value": "ONESHOT"
+        },
+        {
+        	"key": "_lollipop_desc",
+            "value": "Destroy one photo of your choice on the board"
+        },
+        {
+        	"key": "_bomb",
+            "value": "BOMB"
+        },
+        {
+        	"key": "_bomb_desc",
+            "value": "Destroy all the adjacent photos"
+        },
+        {
+        	"key": "_switch",
+            "value": "SWITCH"
+        },
+        {
+            "key": "_switch_desc",
+            "value": "Switch two photos"
+        },
+        {
+            "key": "_photo_bomb",
+            "value": "PHOTOBOMB"
+        },
+        {
+            "key": "_photo_bomb_desc",
+            "value": "Destroy all the photos of the same random color"
+        },
+        {
+            "key": "_alert",
+            "value": "Alert"
+        },
+        {
+            "key": "_alert_desc",
+            "value": "This level is still locked"
+        },
+        {
+            "key": "_coins_shop",
+            "value": "Coins Shop"
+        },
+        {
+            "key": "_lives_shop",
+            "value": "Lives Shop"
+        },
+        {
+            "key": "_refill",
+            "value": "Refill a"
+        },
+        {
+            "key": "_fullset",
+            "value": "full set"
+        },
+        {
+            "key": "_oflives",
+            "value": "of lives"
+        },
+        {
+            "key": "_nextlife",
+            "value": "Next life in:"
+        },
+        {
+            "key": "_quitlevel",
+            "value": "Quit level"
+        },
+        {
+            "key": "_want_quit",
+            "value": "Do you want to quit the level?"
+        },
+        {
+            "key": "_will_lose",
+            "value": "You will lose a life!"
+        },
+        {
+            "key": "_quit",
+            "value": "Quit"
+        },
+        {
+            "key": "_resume",
+            "value": "Resume"
+        },
+        {
+            "key": "_goal",
+            "value": "Goal"
+        },
+        {
+            "key": "_reach",
+            "value": "Reach:"
+        },
+        {
+            "key": "_level_fail",
+            "value": "Level failed"
+        },
+        {
+            "key": "_your_score",
+            "value": "Your score:"
+        },
+        {
+            "key": "_retry",
+            "value": "Retry"
+        },
+        {
+            "key": "_not_reach",
+            "value": "You did not reach\n the required score points"
+        },
+        {
+            "key": "_level",
+            "value": "Level "
+        },
+        {
+            "key": "_out_moves",
+            "value": "Out of moves!"
+        },
+        {
+            "key": "_out_moves_desc",
+            "value": "Add +{0} extra moves to continue"
+        },
+        {
+            "key": "_out_time",
+            "value": "Out of time!"
+        },
+        {
+            "key": "_out_time_desc",
+            "value": "Add +{0} extra seconds to continue"
+        },
+        {
+            "key": "_regen_level",
+            "value": "Regenerating level"
+        },
+        {
+            "key": "_play",
+            "value": "Play!"
+        },
+        {
+            "key": "_completed",
+            "value": "Completed!"
+        },
+        {
+            "key": "_next",
+            "value": "Next"
+        },
+        {
+            "key": "_reached",
+            "value": "You reached the\n required score point!"
+        },
+        {
+            "key": "_tutor_1",
+            "value": "Collect 3 photos"
+        },
+        {
+            "key": "_tutor_2",
+            "value": "Hold on photo to\n open it in fullscreen"
+        },
+        {
+            "key": "_full_lives",
+            "value": "FULL"
+        },
+        {
+            "key": "_moves",
+            "value": "Moves"
+        },
+        {
+            "key": "_time",
+            "value": "Time"
+        },
+        {
+            "key": "_purchase",
+            "value": "Purchase"
+        },
+        {
+            "key": "_purchase_true",
+            "value": "You purchased {0} coins!"
+        },
+        {
+            "key": "_error_title",
+            "value": "Error"
+        },
+        {
+            "key": "_purchase_false",
+            "value": "There was an error when purchasing {0}: {1}"
+        },
+        {
+            "key": "_level_error",
+            "value": "This level does not exist"
+        },
+        {
+            "key": "_reward",
+            "value": "Reward"
+        },
+        {
+            "key": "_reward_text",
+            "value": "You earned {0} coins!"
         }
     ]
 }

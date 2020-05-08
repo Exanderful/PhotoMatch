@@ -86,7 +86,7 @@ namespace GEM.Game.UI
             coinsImage.sprite = coinIcons[(int)item.coinIcon];
             coinsImage.SetNativeSize();
 
-            #if PHOTO_MATCH_ENABLE_IAP
+            //#if PHOTO_MATCH_ENABLE_IAP
             var storeController = PuzzleMatchManager.instance.iapManager.controller;
             if (storeController != null)
             {
@@ -96,9 +96,9 @@ namespace GEM.Game.UI
                     priceText.text = product.metadata.localizedPriceString;
                 }
             }
-            #else
-            priceText.text = "$0,99";
-            #endif
+            //#else
+            //priceText.text = "$0,99";
+            //#endif
         }
 
         /// <summary>
@@ -106,16 +106,16 @@ namespace GEM.Game.UI
         /// </summary>
         public void OnPurchaseButtonPressed()
         {
-            #if PHOTO_MATCH_ENABLE_IAP
+            //#if PHOTO_MATCH_ENABLE_IAP
             var storeController = PuzzleMatchManager.instance.iapManager.controller;
             if (storeController != null)
             {
                 storeController.InitiatePurchase(cachedItem.storeId);
                 buyCoinsPopup.OpenLoadingPopup();
             }
-            #else
-            PuzzleMatchManager.instance.coinsSystem.BuyCoins(cachedItem.numCoins);
-            #endif
+            //#else
+            //PuzzleMatchManager.instance.coinsSystem.BuyCoins(cachedItem.numCoins);
+            //#endif
             GetComponent<PlaySound>().Play("Button");
         }
     }

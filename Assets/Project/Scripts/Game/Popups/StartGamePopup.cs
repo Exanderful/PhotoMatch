@@ -91,7 +91,7 @@ namespace GEM.Game.Popups
 
             var serializer = new fsSerializer();
             var level = FileUtils.LoadJsonFile<Level>(serializer, "Levels/" + numLevel);
-            levelText.text = "Level " + numLevel;
+            levelText.text = LocalizationManager.instance.GetLocalizedValue("_level") + numLevel;
             var stars = PlayerPrefs.GetInt("level_stars_" + numLevel);
             if (stars == 1)
             {
@@ -151,6 +151,7 @@ namespace GEM.Game.Popups
         {
             PuzzleMatchManager.instance.lastSelectedLevel = numLevel;
             GetComponent<SceneTransition>().PerformTransition();
+            FacebookAnalytics.LogButtonClickEvent("PlayLevelButton");
         }
 
         /// <summary>

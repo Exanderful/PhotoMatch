@@ -2,7 +2,7 @@
     "maxLives": 5,
     "timeToNextLife": 300,
     "livesRefillCost": 100,
-    "initialCoins": 1500,
+    "initialCoins": 1000,
     "numExtraMoves": 5,
     "extraMovesCost": 100,
     "numExtraTime": 15,
@@ -16,10 +16,10 @@
         "ColorBomb": 3
     },
     "ingameBoosterCost": {
-        "Lollipop": 100,
-        "Bomb": 100,
-        "Switch": 100,
-        "ColorBomb": 100
+        "Lollipop": 300,
+        "Bomb": 300,
+        "Switch": 300,
+        "ColorBomb": 300
     },
     "rewardedAdCoins": 150,
     "iapItems": [
@@ -29,7 +29,23 @@
             "discount": 0,
             "mostPopular": false,
             "bestValue": false,
+            "coinIcon": "VerySmall"
+        },
+        {
+            "storeId": "com.gem.photomatch.goldpack2",
+            "numCoins": 2500,
+            "discount": 0,
+            "mostPopular": false,
+            "bestValue": false,
             "coinIcon": "Small"
+        },
+        {
+            "storeId": "com.gem.photomatch.goldpack3",
+            "numCoins": 3700,
+            "discount": 0,
+            "mostPopular": false,
+            "bestValue": false,
+            "coinIcon": "MediumSmall"
         }
     ]
 }

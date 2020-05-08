@@ -77,16 +77,16 @@ namespace GEM.Game.Popups
             if (gameScene.level.limitType == LimitType.Moves)
             {
                 timeGroup.SetActive(false);
-                title1Text.text = "Out of moves!";
-                title2Text.text = string.Format("Add +{0} extra moves to continue.", gameConfig.numExtraMoves);
+                title1Text.text = LocalizationManager.instance.GetLocalizedValue("_out_moves");
+                title2Text.text = string.Format(LocalizationManager.instance.GetLocalizedValue("_out_moves_desc"), gameConfig.numExtraMoves);
                 costText.text = gameConfig.extraMovesCost.ToString();
                 numExtraMovesText.text = string.Format("+{0}", gameConfig.numExtraMoves);
             }
             else
             {
                 movesGroup.SetActive(false);
-                title1Text.text = "Out of time!";
-                title2Text.text = string.Format("Add +{0} extra seconds to continue.",
+                title1Text.text = LocalizationManager.instance.GetLocalizedValue("_out_time");
+                title2Text.text = string.Format(LocalizationManager.instance.GetLocalizedValue("_out_time_desc"),
                     PuzzleMatchManager.instance.gameConfig.numExtraTime);
                 costText.text = gameConfig.extraTimeCost.ToString();
             }

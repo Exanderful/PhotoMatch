@@ -25,6 +25,7 @@ namespace GEM.Game.Scenes
 		public FxPool fxPool;
 
         public GameObject _previewer;
+        public GameObject firstTutor;
 
         [SerializeField]
 		private Image ingameBoosterPanel;
@@ -74,8 +75,17 @@ namespace GEM.Game.Scenes
 
 			level = gameBoard.level;
             OpenPopup<LevelGoalsPopup>("Popups/LevelGoalsPopup", popup => popup.SetGoals(level.goals));
-
+            if(PlayerPrefs.GetInt("FirstTutor") == 0)
+            {
+                StartCoroutine(FirstTutor());
+            }
+            else
+            {
+                Object.Destroy(firstTutor);
+            }
             ButtonHoldDelegateHandler += ButtonHoldDelegateHandlerDebug;
+
+            AdsController.instance.ShowInterstitial();
         }
 
 	    /// <summary>
@@ -115,6 +125,13 @@ namespace GEM.Game.Scenes
             GameObject _obj = Instantiate(_previewer);//CanvasController.instance.OpenCanvas(_previewer);
 
             _obj.GetComponent<ImagePreviewer>().Preview(id);
+        }
+
+        IEnumerator FirstTutor()
+        {
+            yield return new WaitForSeconds(2.3f);
+            PlayerPrefs.SetInt("FirstTutor", 1);
+            LeanTween.scale(firstTutor, new Vector3(1.05f, 1.05f, 1f), 0.2f).setEaseInOutBounce();
         }
 
         /// <summary>

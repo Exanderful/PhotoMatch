@@ -84,6 +84,7 @@ namespace GEM.Game.Popups
         /// </summary>
         public void OnRefillButtonPressed()
         {
+            FacebookAnalytics.LogButtonClickEvent("BuyLivesButton");
             var numCoins = PlayerPrefs.GetInt("num_coins");
             if (numCoins >= PuzzleMatchManager.instance.gameConfig.livesRefillCost)
             {
@@ -118,6 +119,7 @@ namespace GEM.Game.Popups
         public void OnCloseButtonPressed()
         {
             Close();
+            FacebookAnalytics.LogButtonClickEvent("CloseLivesPopupButton");
         }
 
         /// <summary>
@@ -137,7 +139,7 @@ namespace GEM.Game.Popups
         /// <param name="lives">The current number of lives.</param>
         private void OnLivesCountdownFinished(int lives)
         {
-            timeToNextLifeText.text = "Full";
+            timeToNextLifeText.text = LocalizationManager.instance.GetLocalizedValue("_full_lives");
             UpdateLifeSprites(lives);
         }
 

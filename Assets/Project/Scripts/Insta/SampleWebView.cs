@@ -135,6 +135,7 @@ public class SampleWebView : MonoBehaviour
 
         Destroy(webViewObject.gameObject);
         BG.SetActive(false);
+        FacebookAnalytics.LogActivityEvent("AccountLogout");
 #endif
 
         PlayerStats.instance.playerSettings = ("", "");

@@ -192,6 +192,7 @@ GameObject:
   - component: {fileID: 224197624283689566}
   - component: {fileID: 222427569221449700}
   - component: {fileID: 114006502433662416}
+  - component: {fileID: 1963681186464230817}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -215,7 +216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77, y: -44.999985}
+  m_AnchoredPosition: {x: -20, y: -50}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222427569221449700
@@ -258,6 +259,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Reach:'
+--- !u!114 &1963681186464230817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121735709000732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _reach
 --- !u!1 &1195444679744796
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 99, y: -49.999985}
+  m_AnchoredPosition: {x: 125, y: -50}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222338096190769636
@@ -334,7 +348,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 999.999
+  m_Text: 9999
 --- !u!1 &1243881407956188
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,6 +621,7 @@ GameObject:
   - component: {fileID: 224911015450249332}
   - component: {fileID: 222281590623620818}
   - component: {fileID: 114895889315711890}
+  - component: {fileID: 53511633364186802}
   m_Layer: 5
   m_Name: TextGoal
   m_TagString: Untagged
@@ -673,6 +688,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Goal
+--- !u!114 &53511633364186802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363698748274384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _goal
 --- !u!1 &1526040281589906
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,6 +822,7 @@ GameObject:
   - component: {fileID: 224237369233150928}
   - component: {fileID: 222656274617945308}
   - component: {fileID: 114639911588434018}
+  - component: {fileID: 5077252065343105621}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -860,6 +889,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Reach score:'
+--- !u!114 &5077252065343105621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599574073707578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _reach
 --- !u!1 &1776535270972750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1486,7 @@ GameObject:
   - component: {fileID: 224134911300528422}
   - component: {fileID: 222333848333647750}
   - component: {fileID: 114746337571093276}
+  - component: {fileID: 7024038641060405077}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1510,6 +1553,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Play!
+--- !u!114 &7024038641060405077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890406185754700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _play
 --- !u!1 &1904022302032748
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,6 +32,7 @@ namespace GEM.Game.Scenes
         private void Start()
         {
             UpdateButtons();
+            AdsController.instance.ShowInterstitial();
         }
 
         /// <summary>
@@ -48,6 +49,7 @@ namespace GEM.Game.Scenes
         public void OnSoundButtonPressed()
         {
             SoundManager.instance.ToggleSound();
+            FacebookAnalytics.LogButtonClickEvent("SoundButton");
         }
 
         /// <summary>
@@ -56,6 +58,7 @@ namespace GEM.Game.Scenes
         public void OnMusicButtonPressed()
         {
             SoundManager.instance.ToggleMusic();
+            FacebookAnalytics.LogButtonClickEvent("MusicButton");
         }
 
         /// <summary>

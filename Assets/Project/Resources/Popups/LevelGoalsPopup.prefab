@@ -84,6 +84,7 @@ GameObject:
   - component: {fileID: 224822769681341962}
   - component: {fileID: 222930981762921226}
   - component: {fileID: 114519000045007782}
+  - component: {fileID: 7948905724102384707}
   m_Layer: 5
   m_Name: TextGoal
   m_TagString: Untagged
@@ -107,7 +108,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 170.2}
+  m_AnchoredPosition: {x: 0, y: 151.28}
   m_SizeDelta: {x: 447.91, y: 153.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222930981762921226
@@ -150,6 +151,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Goal
+--- !u!114 &7948905724102384707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068235622356958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _goal
 --- !u!1 &1121229140421224
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,8 +332,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 2.4}
-  m_SizeDelta: {x: 1455, y: 495}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1285.1, y: 437.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222242978177598948
 CanvasRenderer:
@@ -603,6 +617,7 @@ GameObject:
   - component: {fileID: 224780623968494850}
   - component: {fileID: 222658767759053118}
   - component: {fileID: 114770715415489062}
+  - component: {fileID: 5699972327356423286}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -669,6 +684,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Reach score:'
+--- !u!114 &5699972327356423286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472212302707938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _reach
 --- !u!1 &1502044143144306
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +783,7 @@ GameObject:
   - component: {fileID: 224547850486821566}
   - component: {fileID: 222326401369089514}
   - component: {fileID: 114855054804958678}
+  - component: {fileID: 2730723056891837046}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -821,6 +850,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Reach:'
+--- !u!114 &2730723056891837046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595469778488500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _reach
 --- !u!1 &1870515307793512
 GameObject:
   m_ObjectHideFlags: 0

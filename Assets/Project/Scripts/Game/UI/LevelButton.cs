@@ -141,13 +141,14 @@ namespace GEM.Game.UI
                     if (!FileUtils.FileExists("Levels/" + numLevel))
                     {
                         scene.OpenPopup<AlertPopup>("Popups/AlertPopup",
-                            popup => popup.SetText("This level does not exist."));
+                            popup => popup.SetText(LocalizationManager.instance.GetLocalizedValue("_level_error")));
                     }
                     else
                     {
                         scene.OpenPopup<StartGamePopup>("Popups/StartGamePopup", popup =>
                         {
                             popup.LoadLevelData(numLevel);
+                            FacebookAnalytics.LogButtonClickEvent("Level" + numLevel + "Button");
                         });
                     }
                 }

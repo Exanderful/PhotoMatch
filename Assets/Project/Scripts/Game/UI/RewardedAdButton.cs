@@ -29,7 +29,7 @@ namespace GEM.Game.UI
 			#endif
 		}
 
-		#if UNITY_ADS
+#if UNITY_ADS
 		/// <summary>
 		/// Handles the result of showing the rewarded advertisement.
 		/// </summary>
@@ -47,8 +47,8 @@ namespace GEM.Game.UI
 					{
 						levelScene.GetComponent<LevelScene>().OpenPopup<AlertPopup>("Popups/AlertPopup", popup =>
 						{
-                			popup.SetTitle("Reward");
-                			popup.SetText(string.Format("You earned {0} coins!", rewardCoins));
+                			popup.SetTitle(LocalizationManager.instance.GetLocalizedValue("_reward"));
+                			popup.SetText(string.Format(LocalizationManager.instance.GetLocalizedValue("_reward_text"), rewardCoins));
             			}, false);
 					}
 					break;
@@ -57,6 +57,6 @@ namespace GEM.Game.UI
 					break;
 			}
 		}
-		#endif
+#endif
 	}
 }

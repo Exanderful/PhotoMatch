@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 224932271862282730}
   - component: {fileID: 222845794445667464}
   - component: {fileID: 114140030889652546}
+  - component: {fileID: 7480716427839523280}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -34,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 111}
-  m_SizeDelta: {x: 2010, y: 245.3}
+  m_AnchoredPosition: {x: 0, y: 100}
+  m_SizeDelta: {x: 1700, y: 245.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222845794445667464
 CanvasRenderer:
@@ -77,6 +78,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Do you want to quit the level?
+--- !u!114 &7480716427839523280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156060383678702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _want_quit
 --- !u!1 &1191456148100694
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +259,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1110, y: 800}
+  m_SizeDelta: {x: 891.9, y: 642.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222006553850654302
 CanvasRenderer:
@@ -320,8 +334,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 445, y: 271}
-  m_SizeDelta: {x: 140, y: 140}
+  m_AnchoredPosition: {x: 380.7, y: 260}
+  m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222858898151850906
 CanvasRenderer:
@@ -490,6 +504,7 @@ GameObject:
   - component: {fileID: 224527358282726634}
   - component: {fileID: 222315118548505382}
   - component: {fileID: 114500208856591172}
+  - component: {fileID: 3643702495561926957}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -556,6 +571,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Resume
+--- !u!114 &3643702495561926957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660481705190598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _resume
 --- !u!1 &1685678147657172
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,6 +595,7 @@ GameObject:
   - component: {fileID: 224759704651937646}
   - component: {fileID: 222170456258241228}
   - component: {fileID: 114247187281251136}
+  - component: {fileID: 8315217901440451672}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -590,8 +619,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 22}
-  m_SizeDelta: {x: 2010, y: 245.3}
+  m_AnchoredPosition: {x: 0, y: -6.8}
+  m_SizeDelta: {x: 1700, y: 245.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222170456258241228
 CanvasRenderer:
@@ -633,6 +662,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: You will lose a life!
+--- !u!114 &8315217901440451672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685678147657172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _will_lose
 --- !u!1 &1804522319832070
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,7 +712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -236, y: -182}
+  m_AnchoredPosition: {x: -236, y: -197}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &95966702198918738
@@ -779,7 +821,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236, y: -182.00002}
+  m_AnchoredPosition: {x: 236, y: -197}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &95107083110516266
@@ -935,6 +977,7 @@ GameObject:
   - component: {fileID: 224126783290563818}
   - component: {fileID: 222347746886140260}
   - component: {fileID: 114649120932714066}
+  - component: {fileID: 9043610097915103122}
   m_Layer: 5
   m_Name: HeadlineText
   m_TagString: Untagged
@@ -958,7 +1001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 304}
+  m_AnchoredPosition: {x: 0, y: 236.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222347746886140260
@@ -1001,6 +1044,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Quit level
+--- !u!114 &9043610097915103122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863791332861064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _quitlevel
 --- !u!1 &1927801171064792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1068,7 @@ GameObject:
   - component: {fileID: 224332699991202222}
   - component: {fileID: 222196068435791748}
   - component: {fileID: 114936216156964834}
+  - component: {fileID: 270186080077717335}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1078,3 +1135,16 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Quit
+--- !u!114 &270186080077717335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927801171064792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _quit

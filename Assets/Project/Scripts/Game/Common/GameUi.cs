@@ -57,7 +57,7 @@ namespace GEM.Game.Common
         /// <param name="type">The limit type.</param>
         public void SetLimitType(LimitType type)
         {
-            limitTitleText.text = type == LimitType.Moves ? "Moves" : "Time";
+            limitTitleText.text = type == LimitType.Moves ? LocalizationManager.instance.GetLocalizedValue("_moves") : LocalizationManager.instance.GetLocalizedValue("_time");
             if (type == LimitType.Time)
             {
                 limitText.fontSize = 200;

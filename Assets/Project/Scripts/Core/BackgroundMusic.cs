@@ -11,6 +11,8 @@ namespace GEM.Core
 
         private AudioSource audioSource;
 
+        public AudioClip[] musicClips;
+
         /// <summary>
         /// Unity's Awake method.
         /// </summary>
@@ -35,6 +37,23 @@ namespace GEM.Core
             var music = PlayerPrefs.GetInt("music_enabled");
             audioSource.mute = music == 0;
             audioSource.Play();
+        }
+
+        private void OnLevelWasLoaded(int level)
+        {
+            if(level == 2)
+            {
+                GetComponent<AudioSource>().clip = musicClips[1];
+                audioSource.Play();
+            }
+            else if(level == 1)
+            {
+                if (GetComponent<AudioSource>().clip == musicClips[1])
+                {
+                    GetComponent<AudioSource>().clip = musicClips[0];
+                    audioSource.Play();
+                }
+            }
         }
     }
 }

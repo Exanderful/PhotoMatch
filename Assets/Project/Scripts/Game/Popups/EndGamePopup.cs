@@ -64,7 +64,7 @@ namespace GEM.Game.Popups
         /// <param name="level">The level text.</param>
         public void SetLevel(int level)
         {
-            levelText.text = "Level " + level;
+            levelText.text = LocalizationManager.instance.GetLocalizedValue("_level") + level;
         }
 
         /// <summary>

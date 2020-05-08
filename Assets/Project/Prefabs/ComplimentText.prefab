@@ -64,7 +64,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ef386652d9124f5caa80d6d75a67f2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5776d72e477c443178d05fec13a00a61, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -144,9 +144,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   complimentImage: {fileID: 114256597876785472}
-  goodSprite: {fileID: 21300000, guid: 81e73dbf4d0324bc0adf0a76bd622ffa, type: 3}
-  superSprite: {fileID: 21300000, guid: 81e73dbf4d0324bc0adf0a76bd622ffa, type: 3}
-  yummySprite: {fileID: 21300000, guid: 81e73dbf4d0324bc0adf0a76bd622ffa, type: 3}
+  goodSprite: {fileID: 21300000, guid: 5776d72e477c443178d05fec13a00a61, type: 3}
+  superSprite: {fileID: 21300000, guid: 5776d72e477c443178d05fec13a00a61, type: 3}
+  yummySprite: {fileID: 21300000, guid: 5776d72e477c443178d05fec13a00a61, type: 3}
 --- !u!114 &114815233425034212
 MonoBehaviour:
   m_ObjectHideFlags: 0

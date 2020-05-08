@@ -73,6 +73,7 @@ namespace GEM.Game.Popups
         public void OnBuyButtonPressed(int numCoins)
         {
             PuzzleMatchManager.instance.coinsSystem.BuyCoins(numCoins);
+            FacebookAnalytics.LogButtonClickEvent("CoinsShopBuyButton");
         }
 
         /// <summary>
@@ -81,6 +82,7 @@ namespace GEM.Game.Popups
         public void OnCloseButtonPressed()
         {
             Close();
+            FacebookAnalytics.LogButtonClickEvent("CoinsShopCloseButton");
         }
 
         /// <summary>

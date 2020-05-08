@@ -49,6 +49,7 @@ namespace GEM.Game.UI
 			}
 
 			var playerPrefsKey = string.Format("num_boosters_{0}", (int)boosterType);
+			FacebookAnalytics.LogButtonClickEvent("BoosterButton" + (int)boosterType);
 			var numBoosters = PlayerPrefs.GetInt(playerPrefsKey);
 			if (numBoosters == 0)
 			{

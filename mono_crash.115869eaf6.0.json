@@ -15,127 +15,27 @@
     "suspend" : "hybrid"
   },
   "memory" : {
-    "Resident Size" : "136302592",
-    "Virtual Size" : "4615520256",
-    "minor_gc_time" : "267928",
+    "Resident Size" : "44793856",
+    "Virtual Size" : "4639272960",
+    "minor_gc_time" : "377277",
     "major_gc_time" : "0",
-    "minor_gc_count" : "1",
+    "minor_gc_count" : "2",
     "major_gc_count" : "0",
     "major_gc_time_concurrent" : "0"
  },
   "threads" : [
  {
-    "is_managed" : false,
-    "offset_free_hash" : "0x0",
-    "offset_rich_hash" : "0x0",
-    "crashed" : false,
-    "native_thread_id" : "0x11057fdc0",
-    "thread_info_addr" : "0x7fda64809800",
-    "thread_name" : "tid_307",
-    "ctx" : {
-      "IP" : "0x7fff6d340ce6",
-      "SP" : "0x7ffee174ecc8",
-      "BP" : "0x7ffee174ed60"
-  },
-    "unmanaged_frames" : [
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e562af6",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e6fc8a5",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e6fc5d7",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e5ce3ec",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x7fff6d3f642d",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x7ffee174e9b8",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e7a8c40",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e7c1121",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e6f9754",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e6f956a",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e5284b2",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x10e4b35c8",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x7fff6d1fd7fd",
-      "native_offset" : "0x00000"
-   }
-,
-  {
-      "is_managed" : "false",
-      "native_address" : "0x5",
-      "native_offset" : "0x00000"
-   }
-
-  ]
- },
- {
     "is_managed" : true,
     "offset_free_hash" : "0x115869eaf6",
-    "offset_rich_hash" : "0x115869eeb0",
+    "offset_rich_hash" : "0x115869ee48",
     "crashed" : true,
-    "native_thread_id" : "0x7000089f7000",
-    "thread_info_addr" : "0x7fda66858800",
+    "native_thread_id" : "0x70000387c000",
+    "thread_info_addr" : "0x7f913599aa00",
     "thread_name" : "Thread Pool Worker",
     "ctx" : {
-      "IP" : "0x7fff6d3447fa",
-      "SP" : "0x7000089f55d8",
-      "BP" : "0x7000089f5600"
+      "IP" : "0x7fff706c57fa",
+      "SP" : "0x70000387a5d8",
+      "BP" : "0x70000387a600"
   },
     "managed_frames" : [
   {
@@ -354,7 +254,7 @@
       "filename" : "mscorlib.dll",
       "sizeofimage" : "0x474000",
       "timestamp" : "0xd0017708",
-      "il_offset" : "0x00071"
+      "il_offset" : "0x00009"
    }
 ,
   {
@@ -416,43 +316,43 @@
   "unmanaged_frames" : [
  {
     "is_managed" : "false",
-    "native_address" : "0x10e562af6",
+    "native_address" : "0x10aa78af6",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6fc8a5",
+    "native_address" : "0x10ac128a5",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6fcf2a",
+    "native_address" : "0x10ac12f2a",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e5cf366",
+    "native_address" : "0x10aae5366",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e5677a5",
+    "native_address" : "0x10aa7d7a5",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e5ce78b",
+    "native_address" : "0x10aae478b",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x7fff6d3f642d",
+    "native_address" : "0x7fff7077742d",
     "native_offset" : "0x00000"
   }
 ,
@@ -463,67 +363,67 @@
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x7fff6d2cba1c",
+    "native_address" : "0x7fff7064ca1c",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e7cbc67",
+    "native_address" : "0x10ace1c67",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e7aca8f",
+    "native_address" : "0x10acc2a8f",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e7cbfee",
+    "native_address" : "0x10ace1fee",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e7cc16f",
+    "native_address" : "0x10ace216f",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6653e2",
+    "native_address" : "0x10ab7b3e2",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e665982",
+    "native_address" : "0x10ab7b982",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e7b9f81",
+    "native_address" : "0x10accff81",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e7ba330",
+    "native_address" : "0x10acd0330",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e667ad6",
+    "native_address" : "0x10ab7dad6",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e68c920",
+    "native_address" : "0x10aba2920",
     "native_offset" : "0x00000"
   }
 ,
@@ -617,31 +517,31 @@
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e4c467b",
+    "native_address" : "0x10a9da67b",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6d1b67",
+    "native_address" : "0x10abe7b67",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6da7d9",
+    "native_address" : "0x10abf07d9",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e66f80d",
+    "native_address" : "0x10ab8580d",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e68411e",
+    "native_address" : "0x10ab9a11e",
     "native_offset" : "0x00000"
   }
 ,
@@ -735,43 +635,43 @@
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e4c467b",
+    "native_address" : "0x10a9da67b",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6d3552",
+    "native_address" : "0x10abe9552",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e700087",
+    "native_address" : "0x10ac16087",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e62fcb8",
+    "native_address" : "0x10ab45cb8",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6fd528",
+    "native_address" : "0x10ac13528",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x7fff6d401e65",
+    "native_address" : "0x7fff70782e65",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x7fff6d3fd83b",
+    "native_address" : "0x7fff7077e83b",
     "native_offset" : "0x00000"
   }
 
@@ -782,42 +682,42 @@
   "offset_free_hash" : "0x0",
   "offset_rich_hash" : "0x0",
   "crashed" : false,
-  "native_thread_id" : "0x7000082e8000",
-  "thread_info_addr" : "0x7fda6483c200",
+  "native_thread_id" : "0x700002b64000",
+  "thread_info_addr" : "0x7f9132827a00",
   "thread_name" : "Finalizer",
   "ctx" : {
-    "IP" : "0x7fff6d33e296",
-    "SP" : "0x7000082e7eb8",
-    "BP" : "0x7000082e7f00"
+    "IP" : "0x7fff706bf296",
+    "SP" : "0x700002b63eb8",
+    "BP" : "0x700002b63f00"
  },
   "unmanaged_frames" : [
  {
     "is_managed" : "false",
-    "native_address" : "0x10e562af6",
+    "native_address" : "0x10aa78af6",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6fc8a5",
+    "native_address" : "0x10ac128a5",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6fc5d7",
+    "native_address" : "0x10ac125d7",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e5ce3ec",
+    "native_address" : "0x10aae43ec",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x7fff6d3f642d",
+    "native_address" : "0x7fff7077742d",
     "native_offset" : "0x00000"
   }
 ,
@@ -834,19 +734,119 @@
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x10e6fd528",
+    "native_address" : "0x10ac13528",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x7fff6d401e65",
+    "native_address" : "0x7fff70782e65",
     "native_offset" : "0x00000"
   }
 ,
  {
     "is_managed" : "false",
-    "native_address" : "0x7fff6d3fd83b",
+    "native_address" : "0x7fff7077e83b",
+    "native_offset" : "0x00000"
+  }
+
+ ]
+},
+{
+  "is_managed" : false,
+  "offset_free_hash" : "0x0",
+  "offset_rich_hash" : "0x0",
+  "crashed" : false,
+  "native_thread_id" : "0x11a54ddc0",
+  "thread_info_addr" : "0x7f913200d000",
+  "thread_name" : "tid_307",
+  "ctx" : {
+    "IP" : "0x7fff706c1ce6",
+    "SP" : "0x7ffee5238cc8",
+    "BP" : "0x7ffee5238d60"
+ },
+  "unmanaged_frames" : [
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10aa78af6",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10ac128a5",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10ac125d7",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10aae43ec",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x7fff7077742d",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x7ffee52389b8",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10acbec40",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10acd7121",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10ac0f754",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10ac0f56a",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10aa3e4b2",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10a9c95c8",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x7fff7057e7fd",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x5",
     "native_offset" : "0x00000"
   }
 

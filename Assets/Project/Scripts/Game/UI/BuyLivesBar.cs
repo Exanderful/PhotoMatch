@@ -89,6 +89,7 @@ namespace GEM.Game.UI
             {
                 levelScene.OpenPopup<BuyLivesPopup>("Popups/BuyLivesPopup");
             }
+            FacebookAnalytics.LogButtonClickEvent("BuyLivesButton");
         }
 
         /// <summary>
@@ -111,7 +112,7 @@ namespace GEM.Game.UI
         /// <param name="lives">The current number of lives.</param>
         private void OnLivesCountdownFinished(int lives)
         {
-            timeToNextLifeText.text = "Full";
+            timeToNextLifeText.text = LocalizationManager.instance.GetLocalizedValue("_full_lives");
             numLivesText.text = lives.ToString();
             lifeImage.sprite = lives == 0 ? disabledLifeSprite : enabledLifeSprite;
             buttonImage.sprite = disabledButtonSprite;

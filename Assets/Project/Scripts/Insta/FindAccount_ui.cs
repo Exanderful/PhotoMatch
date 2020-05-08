@@ -13,8 +13,10 @@ public class FindAccount_ui : ui_basement
 
     public void TryFind(bool acc)
     {
+        FacebookAnalytics.LogButtonClickEvent("FindAccOrHashtagButton");
         if (InputField.text.Length < 3)
         {
+            FacebookAnalytics.LogActivityEvent("TooShortForFind");
             Error_tex.text = "Too short";
             return;
         }
@@ -47,6 +49,7 @@ public class FindAccount_ui : ui_basement
         DownloadManager.SuccessfullHandler -= success;
 
         Error_tex.text = args;
+        FacebookAnalytics.LogActivityEvent("FindAccOrHashtagFail");
     }
 
     void success(string msg)
@@ -55,13 +58,14 @@ public class FindAccount_ui : ui_basement
 
         DownloadManager.ErrorHandler -= Failed;
         DownloadManager.SuccessfullHandler -= success;
+        FacebookAnalytics.LogActivityEvent("FindAccOrHashtagSuccess");
     }
 
     public override void DeActivate()
     {
         DownloadManager.ErrorHandler -= Failed;
         DownloadManager.SuccessfullHandler -= success;
-
+        FacebookAnalytics.LogButtonClickEvent("FindAccountOrHashtagCloseButton");
         base.DeActivate();
     }
 }

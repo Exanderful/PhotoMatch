@@ -52,6 +52,7 @@ namespace GEM.Game.UI
         public void OnBuyButtonPressed()
         {
             levelScene.OpenPopup<BuyCoinsPopup>("Popups/BuyCoinsPopup");
+            FacebookAnalytics.LogButtonClickEvent("BuyCoinsButton");
         }
 
         /// <summary>

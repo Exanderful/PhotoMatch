@@ -5049,7 +5049,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 75
+  m_Spacing: -75
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -5140,6 +5140,7 @@ GameObject:
   - component: {fileID: 224590564391360450}
   - component: {fileID: 222573513253544054}
   - component: {fileID: 114891810044424730}
+  - component: {fileID: 2319470558978626617}
   m_Layer: 5
   m_Name: YourScoreText
   m_TagString: Untagged
@@ -5163,7 +5164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -232.99997}
+  m_AnchoredPosition: {x: 43, y: -232.99997}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222573513253544054
@@ -5187,7 +5188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21960784, g: 0.21960784, b: 0.21960784, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5206,6 +5207,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Your score:'
+--- !u!114 &2319470558978626617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112322953552492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _your_score
 --- !u!1 &1200953330353894
 GameObject:
   m_ObjectHideFlags: 0
@@ -5720,7 +5734,7 @@ Animator:
   m_GameObject: {fileID: 1527934881988664}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e5199636cd2e3441ca818c8d9ab90514, type: 2}
+  m_Controller: {fileID: 9100000, guid: f333e1cce631846e1b8d3ccd3bb0e69a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11093,7 +11107,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 95, y: -233}
+  m_AnchoredPosition: {x: 135, y: -233}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222911413337535318
@@ -11117,7 +11131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -11135,7 +11149,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 999.999
+  m_Text: 999.9
 --- !u!1 &1708072333894396
 GameObject:
   m_ObjectHideFlags: 0
@@ -20904,7 +20918,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 170}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &95489732296903676
@@ -21030,6 +21044,7 @@ GameObject:
   - component: {fileID: 224179414452372902}
   - component: {fileID: 222921396731143710}
   - component: {fileID: 114730565687773770}
+  - component: {fileID: 4556252762895390845}
   m_Layer: 5
   m_Name: ScoreOnlyReachedText
   m_TagString: Untagged
@@ -21096,6 +21111,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "You reached the \nrequired score points!"
+--- !u!114 &4556252762895390845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785611100666298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _reached
 --- !u!1 &1796185225086614
 GameObject:
   m_ObjectHideFlags: 0
@@ -26175,6 +26203,7 @@ GameObject:
   - component: {fileID: 224155253695337534}
   - component: {fileID: 222327274242325720}
   - component: {fileID: 114504319316897898}
+  - component: {fileID: 3900561134045316011}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -26241,6 +26270,19 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Next
+--- !u!114 &3900561134045316011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889968350165680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _next
 --- !u!1 &1890354106219346
 GameObject:
   m_ObjectHideFlags: 0
@@ -36241,6 +36283,7 @@ GameObject:
   - component: {fileID: 224987848162497530}
   - component: {fileID: 222592886941450614}
   - component: {fileID: 114393243448085576}
+  - component: {fileID: 5776441582493239132}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -36307,3 +36350,16 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Completed!
+--- !u!114 &5776441582493239132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999582986175216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc151ff9ab428047bf323cf85c043f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: _completed

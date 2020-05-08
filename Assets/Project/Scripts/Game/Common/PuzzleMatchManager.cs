@@ -22,9 +22,9 @@ namespace GEM.Game.Common
         public int lastSelectedLevel;
         public bool unlockedNextLevel;
 
-        #if PHOTO_MATCH_ENABLE_IAP
+        //#if PHOTO_MATCH_ENABLE_IAP
         public IapManager iapManager;
-        #endif
+        //#endif
 
         /// <summary>
         /// Unity's Awake method.
@@ -63,9 +63,9 @@ namespace GEM.Game.Common
                 PlayerPrefs.SetInt("music_enabled", 1);
             }
 
-            #if PHOTO_MATCH_ENABLE_IAP
+            //#if PHOTO_MATCH_ENABLE_IAP
             iapManager = new IapManager();
-            #endif
+            //#endif
         }
     }
 }

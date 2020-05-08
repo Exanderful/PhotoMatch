@@ -20,6 +20,7 @@ public class OpenGameModes : MonoBehaviour
         {
             StartCoroutine(onPlayAnimation());
             clicked = true;
+            FacebookAnalytics.LogButtonClickEvent("OpenGameModes");
         }
     }
 

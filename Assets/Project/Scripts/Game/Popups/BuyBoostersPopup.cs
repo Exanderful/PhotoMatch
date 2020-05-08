@@ -35,8 +35,8 @@ namespace GEM.Game.Popups
 	    [SerializeField]
 	    private Image boosterImage;
 
-	    [SerializeField]
-	    private Text boosterAmountText;
+	    //[SerializeField]
+	    //private Text boosterAmountText;
 
 	    [SerializeField]
 	    private Text boosterCostText;
@@ -62,7 +62,7 @@ namespace GEM.Game.Popups
 			Assert.IsNotNull(boosterNameText);
 			Assert.IsNotNull(boosterDescriptionText);
 			Assert.IsNotNull(boosterImage);
-			Assert.IsNotNull(boosterAmountText);
+			//Assert.IsNotNull(boosterAmountText);
 			Assert.IsNotNull(boosterCostText);
 			Assert.IsNotNull(numCoinsText);
 			Assert.IsNotNull(coinParticles);
@@ -88,32 +88,32 @@ namespace GEM.Game.Popups
 			{
 				case BoosterType.Lollipop:
 					boosterImage.sprite = lollipopSprite;
-					boosterNameText.text = "Lollipop";
-					boosterDescriptionText.text = "Destroy one candy of your choice on the board.";
+					boosterNameText.text = LocalizationManager.instance.GetLocalizedValue("_lollipop");
+					boosterDescriptionText.text = LocalizationManager.instance.GetLocalizedValue("_lollipop_desc");
 					break;
 
 				case BoosterType.Bomb:
 					boosterImage.sprite = bombSprite;
-					boosterNameText.text = "Bomb";
-					boosterDescriptionText.text = "Destroy all the adjacent candies.";
+					boosterNameText.text = LocalizationManager.instance.GetLocalizedValue("_bomb");
+					boosterDescriptionText.text = LocalizationManager.instance.GetLocalizedValue("_bomb_desc");
 					break;
 
 				case BoosterType.Switch:
 					boosterImage.sprite = switchSprite;
-					boosterNameText.text = "Switch";
-					boosterDescriptionText.text = "Switch two candies.";
+					boosterNameText.text = LocalizationManager.instance.GetLocalizedValue("_switch");
+					boosterDescriptionText.text = LocalizationManager.instance.GetLocalizedValue("_switch_desc");
 					break;
 
 				case BoosterType.ColorBomb:
 					boosterImage.sprite = colorBombSprite;
-					boosterNameText.text = "Color bomb";
-					boosterDescriptionText.text = "Destroy all the candies of the same random color.";
+					boosterNameText.text = LocalizationManager.instance.GetLocalizedValue("_photo_bomb");
+					boosterDescriptionText.text = LocalizationManager.instance.GetLocalizedValue("_photo_bomb");
 					break;
 			}
 
-			boosterImage.SetNativeSize();
+			//boosterImage.SetNativeSize();
 
-			boosterAmountText.text = PuzzleMatchManager.instance.gameConfig.ingameBoosterAmount[buyButton.boosterType].ToString();
+			//boosterAmountText.text = PuzzleMatchManager.instance.gameConfig.ingameBoosterAmount[buyButton.boosterType].ToString();
 			boosterCostText.text = PuzzleMatchManager.instance.gameConfig.ingameBoosterCost[buyButton.boosterType].ToString();
 		}
 
@@ -122,7 +122,8 @@ namespace GEM.Game.Popups
 	    /// </summary>
 	    public void OnBuyButtonPressed()
 	    {
-		    var playerPrefsKey = string.Format("num_boosters_{0}", (int)buyButton.boosterType);
+			FacebookAnalytics.LogButtonClickEvent("BuyBoosterButton");
+			var playerPrefsKey = string.Format("num_boosters_{0}", (int)buyButton.boosterType);
 		    var numBoosters = PlayerPrefs.GetInt(playerPrefsKey);
 
 		    Close();

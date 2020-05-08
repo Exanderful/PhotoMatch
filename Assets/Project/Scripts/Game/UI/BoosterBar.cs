@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 using GEM.Game.Common;
 
@@ -11,15 +12,19 @@ namespace GEM.Game.UI
 	{
 		[SerializeField]
 		private BuyBoosterButton button1;
+		public GameObject lockedButton1;
 
 		[SerializeField]
 		private BuyBoosterButton button2;
+		public GameObject lockedButton2;
 
 		[SerializeField]
 		private BuyBoosterButton button3;
+		public GameObject lockedButton3;
 
 		[SerializeField]
 		private BuyBoosterButton button4;
+		public GameObject lockedButton4;
 
 		/// <summary>
 		/// Sets the data of the in-game booster buttons.
@@ -30,6 +35,7 @@ namespace GEM.Game.UI
 			if (level.availableBoosters[BoosterType.Lollipop])
 			{
 				button1.UpdateAmount(PlayerPrefs.GetInt("num_boosters_0"));
+				lockedButton1.gameObject.SetActive(false);
 			}
 			else
 			{
@@ -39,6 +45,7 @@ namespace GEM.Game.UI
 			if (level.availableBoosters[BoosterType.Bomb])
 			{
 				button2.UpdateAmount(PlayerPrefs.GetInt("num_boosters_1"));
+				lockedButton2.gameObject.SetActive(false);
 			}
 			else
 			{
@@ -48,6 +55,7 @@ namespace GEM.Game.UI
 			if (level.availableBoosters[BoosterType.Switch])
 			{
 				button3.UpdateAmount(PlayerPrefs.GetInt("num_boosters_2"));
+				lockedButton3.gameObject.SetActive(false);
 			}
 			else
 			{
@@ -57,6 +65,7 @@ namespace GEM.Game.UI
 			if (level.availableBoosters[BoosterType.ColorBomb])
 			{
 				button4.UpdateAmount(PlayerPrefs.GetInt("num_boosters_3"));
+				lockedButton4.gameObject.SetActive(false);
 			}
 			else
 			{

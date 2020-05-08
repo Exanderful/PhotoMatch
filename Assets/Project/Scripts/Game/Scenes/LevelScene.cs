@@ -41,7 +41,7 @@ namespace GEM.Game.Scenes
         /// </summary>
         private void Start()
         {
-            scrollRect.vertical = false;
+            //scrollRect.vertical = false;
 
             #if UNITY_ADS
             rewardedAdButton.SetActive(true);
@@ -114,6 +114,8 @@ namespace GEM.Game.Scenes
                 //avatar.GetComponent<LevelAvatar>().StartFloatingAnimation();
                 scrollRect.vertical = true;
             }
+
+            AdsController.instance.ShowInterstitial();
         }
     }
 }

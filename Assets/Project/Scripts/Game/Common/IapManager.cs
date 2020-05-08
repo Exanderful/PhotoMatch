@@ -1,4 +1,4 @@
-﻿#if PHOTO_MATCH_ENABLE_IAP
+﻿//#if PHOTO_MATCH_ENABLE_IAP
 using UnityEngine;
 using UnityEngine.Purchasing;
 
@@ -72,8 +72,8 @@ namespace GEM.Game.Common
                     shopPopup.GetComponent<BuyCoinsPopup>().parentScene.OpenPopup<AlertPopup>("Popups/AlertPopup",
                         popup =>
                         {
-                            popup.SetTitle("Purchase");
-                            popup.SetText(string.Format("You purchased {0} coins!", catalogProduct.numCoins));
+                            popup.SetTitle(LocalizationManager.instance.GetLocalizedValue("_purchase"));
+                            popup.SetText(string.Format(LocalizationManager.instance.GetLocalizedValue("_purchase_true"), catalogProduct.numCoins));
                         }, false);
                 }
             }
@@ -94,8 +94,8 @@ namespace GEM.Game.Common
                 shopPopup.GetComponent<BuyCoinsPopup>().parentScene.OpenPopup<AlertPopup>("Popups/AlertPopup",
                     popup =>
                     {
-                        popup.SetTitle("Error");
-                        popup.SetText(string.Format("There was an error when purchasing {0}: {1}",
+                        popup.SetTitle(LocalizationManager.instance.GetLocalizedValue("_error_title"));
+                        popup.SetText(string.Format(LocalizationManager.instance.GetLocalizedValue("_purchase_false"),
                             product.metadata.localizedTitle, GetPurchaseFailureReasonString(reason)));
                     }, false);
             }
@@ -140,4 +140,4 @@ namespace GEM.Game.Common
         }
     }
 }
-#endif
+//#endif

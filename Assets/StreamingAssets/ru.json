@@ -142,7 +142,7 @@
         },
         {
             "key": "_ui_rules",
-            "value": "Правила"
+            "value": "ПРАВИЛА"
         },
         {
             "key": "_ui_daily",
@@ -194,15 +194,15 @@
         },
         {
             "key": "_ui_findaccount",
-            "value": "найти аккаунт"
+            "value": "НАЙТИ АККАУНТ"
         },
         {
             "key": "_ui_findaccount_findit",
-            "value": "найти!"
+            "value": "НАЙТИ!"
         },
         {
             "key": "_ui_findhashtag",
-            "value": "найти хештег"
+            "value": "НАЙТИ ХЕШТЕГ"
         },
         {
             "key": "_ui_searching",
@@ -379,6 +379,230 @@
         {
             "key": "_thanks",
             "value": "Спасибо!"
+        },
+        {
+            "key": "_ads",
+            "value": "РЕКЛАМА"
+        },
+        {
+            "key": "_sound",
+            "value": "ЗВУК"
+        },
+        {
+            "key": "_music",
+            "value": "МУЗЫКА"
+        },
+        {
+            "key": "_search_hashtag",
+            "value": "ПОИСК ПО ХЕШТЕГУ"
+        },
+        {
+            "key": "_search_account",
+            "value": "ПОИСК ПО АККАУНТУ"
+        },
+        {
+            "key": "_my_account",
+            "value": "МОЙ АККАУНТ"
+        },
+        {
+            "key": "_loading",
+            "value": "ЗАГРУЗКА"
+        },
+        {
+            "key": "_lollipop",
+            "value": "НА ВЫБОР"
+        },
+        {
+            "key": "_lollipop_desc",
+            "value": "Уничтожь одно фото на поле на твой выбор"
+        },
+        {
+            "key": "_bomb",
+            "value": "БОМБА"
+        },
+        {
+            "key": "_bomb_desc",
+            "value": "Уничтожить все соседние фотографии"
+        },
+        {
+            "key": "_switch",
+            "value": "СМЕНА"
+        },
+        {
+            "key": "_switch_desc",
+            "value": "Сменить две фотографии местами"
+        },
+        {
+            "key": "_photo_bomb",
+            "value": "ФОТОБОМБА"
+        },
+        {
+            "key": "_photo_bomb_desc",
+            "value": "Уничтожить все фотографии одного случайного цвета"
+        },
+        {
+            "key": "_alert",
+            "value": "Alert"
+        },
+        {
+            "key": "_alert_desc",
+            "value": "Этот уровень еще закрыт"
+        },
+        {
+            "key": "_coins_shop",
+            "value": "Магазин Монет"
+        },
+        {
+            "key": "_lives_shop",
+            "value": "Магазин Жизней"
+        },
+        {
+            "key": "_refill",
+            "value": "Купить"
+        },
+        {
+            "key": "_fullset",
+            "value": "полный"
+        },
+        {
+            "key": "_oflives",
+            "value": "набор жизней"
+        },
+        {
+            "key": "_nextlife",
+            "value": "Жизнь через:"
+        },
+        {
+            "key": "_quitlevel",
+            "value": "Выход"
+        },
+        {
+            "key": "_want_quit",
+            "value": "Вы хотите выйти с уровня?"
+        },
+        {
+            "key": "_will_lose",
+            "value": "Вы потеряете жизнь!"
+        },
+        {
+            "key": "_quit",
+            "value": "Выход"
+        },
+        {
+            "key": "_resume",
+            "value": "Далее"
+        },
+        {
+            "key": "_goal",
+            "value": "Цель"
+        },
+        {
+            "key": "_reach",
+            "value": "Набрать:"
+        },
+        {
+            "key": "_level_fail",
+            "value": "Проигрыш"
+        },
+        {
+            "key": "_your_score",
+            "value": "Ваш счет:"
+        },
+        {
+            "key": "_retry",
+            "value": "Заново"
+        },
+        {
+            "key": "_not_reach",
+            "value": "Вы не достигли нужного\n количества очков"
+        },
+        {
+            "key": "_level",
+            "value": "Уровень "
+        },
+        {
+            "key": "_out_moves",
+            "value": "Нет ходов!"
+        },
+        {
+            "key": "_out_moves_desc",
+            "value": "Добавить +{0} доп. ходов\n для продолжения"
+        },
+        {
+            "key": "_out_time",
+            "value": "Время вышло!"
+        },
+        {
+            "key": "_out_time_desc",
+            "value": "Добавить +{0} доп. секунд\n для продолжения"
+        },
+        {
+            "key": "_regen_level",
+            "value": "Регенерация уровня"
+        },
+        {
+            "key": "_play",
+            "value": "Играть!"
+        },
+        {
+            "key": "_completed",
+            "value": "Завершен!"
+        },
+        {
+            "key": "_next",
+            "value": "Далее"
+        },
+        {
+            "key": "_reached",
+            "value": "Вы достигли нужного\n количества очков!"
+        },
+        {
+            "key": "_tutor_1",
+            "value": "Соберите 3 фотографии\n вместе"
+        },
+        {
+            "key": "_tutor_2",
+            "value": "Удерживайте фото для\n открытия на весь экран"
+        },
+        {
+            "key": "_full_lives",
+            "value": "МАКС."
+        },
+        {
+            "key": "_moves",
+            "value": "Ходов"
+        },
+        {
+            "key": "_time",
+            "value": "Время"
+        },
+        {
+            "key": "_purchase",
+            "value": "Покупка"
+        },
+        {
+            "key": "_purchase_true",
+            "value": "Вы купили {0} монет!"
+        },
+        {
+            "key": "_error_title",
+            "value": "Ошибка"
+        },
+        {
+            "key": "_purchase_false",
+            "value": "Произошла ошибка при покупке {0}: {1}"
+        },
+        {
+            "key": "_level_error",
+            "value": "Этого уровня еще нет"
+        },
+        {
+            "key": "_reward",
+            "value": "Награда"
+        },
+        {
+            "key": "_reward_text",
+            "value": "Вы получили {0} монет!"
         }
     ]
 }

@@ -238,8 +238,8 @@ namespace GEM.Game.Common
             tilePositions.Clear();
             possibleSwaps.Clear();
 
-            const float horizontalSpacing = 0.0f;
-            const float verticalSpacing = 0.0f;
+            const float horizontalSpacing = 0.27f;
+            const float verticalSpacing = 0.27f;
 
             for (var j = 0; j < level.height; j++)
             {

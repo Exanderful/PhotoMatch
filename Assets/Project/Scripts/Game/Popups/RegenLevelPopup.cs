@@ -44,11 +44,11 @@ namespace GEM.Game.Popups
 	    {
 		    for (var i = 0; i < 100; i++)
 		    {
-			    text.text = "Regenerating level.";
+			    text.text = LocalizationManager.instance.GetLocalizedValue("_regen_level") + ".";
 			    yield return new WaitForSeconds(0.4f);
-			    text.text = "Regenerating level..";
+			    text.text = LocalizationManager.instance.GetLocalizedValue("_regen_level") + "..";
 			    yield return new WaitForSeconds(0.4f);
-			    text.text = "Regenerating level...";
+			    text.text = LocalizationManager.instance.GetLocalizedValue("_regen_level") + "...";
 			    yield return new WaitForSeconds(0.4f);
 		    }
 	    }
